@@ -3,7 +3,7 @@
 /**
  * main - Function
  *
- * Return Alwys 0
+ * Return: Alwys 0
  */
 
 int main(void)
