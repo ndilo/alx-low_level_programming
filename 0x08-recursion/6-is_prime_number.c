@@ -2,8 +2,8 @@
 
 /**
  * check - checks to see if number is prime
- * @a:  input integer 
- * @b:  input integer 
+ * @a:  input integer
+ * @b:  input integer
  * Return: 0 or 1
  */
 int check(int a, int b)
