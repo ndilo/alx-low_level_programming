@@ -4,21 +4,6 @@
 #include "lists.h"
 
 /**
- * _strlen - returns the length of a string 
- * @s : s character
- * Return: num  or NULL if it failed
- */
-int _strlen(const char *s)
-{
-	int num = 0;
-
-	while (s[num] != '\0')
-	{
-		num++;
-	}
-	return (num);
-}
-/**
  * add_node - to add a new node at beginning of a list_t list.
  * @head: head of list_t list.
  * @str: value to insert into element.
