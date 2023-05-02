@@ -3,9 +3,7 @@
 
 /**
  * free_listint - frees a listint_t list
- *
  * @head: head of the list
- *
  * Return: NULL if fails
  */
 
@@ -15,7 +13,7 @@ void free_listint(listint_t *head)
 
 	while (head)
 	{
-		element = head->element;
+		element = head->next;
 		free(head);
 		head = element;
 	}
