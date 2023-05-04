@@ -27,7 +27,7 @@ void print_binary(unsigned long int n)
 	unsigned long int val, result;
 	char c = 0;
 
-	val = _power(2, 63;
+	val = _power(2, 63);
 
 	while (val)
 	{
